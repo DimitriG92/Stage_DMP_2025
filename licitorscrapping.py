@@ -441,7 +441,8 @@ if resultats:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(resultats)
-    print("✅ Export CSV terminé : annonces_licitor_tj_paris_5_an.csv")
+    print("Export CSV terminé : annonces_licitor_tj_paris_5_an.csv")
 else:
-    print("❌ Aucune annonce trouvée.")
+    print("Aucune annonce trouvée.")
+
 
