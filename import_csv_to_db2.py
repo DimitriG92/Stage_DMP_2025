@@ -31,4 +31,5 @@ for chunk in pd.read_csv(CSV_PATH, sep=',', encoding='utf-8', dtype=str, chunksi
     first_chunk = False
     print(f"{len(chunk)} lignes insérées...")
 
-print("✅ Base de données initialisée avec succès.")
+print("Base de données initialisée avec succès.")
+
